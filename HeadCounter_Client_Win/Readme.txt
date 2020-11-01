@@ -1,9 +1,3 @@
-﻿Desciption
---------------------------
-A small program to keep track of your medicinal or recreational MJ usage with focus on data control for user, privacy and security.
-
-
-
 How to run
 --------------------------
 > Download folder ".binaries4download"
