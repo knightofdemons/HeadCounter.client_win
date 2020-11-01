@@ -113,6 +113,7 @@ Public Class win_main
 
         End If
 
+
         ssplit = My.Settings.data.Rows(My.Settings.data.Rows.Count - 1).Item("location")
         Dim asplit As Array = Split(ssplit, ",")
         If Not asplit(0) = "" Then
@@ -181,8 +182,7 @@ Public Class win_main
         table_view.Columns("type").ReadOnly = True
         table_view.Columns("g_or_oz").ReadOnly = True
         table_view.Columns("location").ReadOnly = True
-
-        'table_view.Columns("date").
+        table_view.Columns("date").DefaultCellStyle.Format = "dd/MM/yy hh:mm"
 
 
         If table_view.Rows(0).Visible Then

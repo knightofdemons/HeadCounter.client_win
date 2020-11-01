@@ -1,0 +1,41 @@
+﻿<?xml version="1.0"?>
+<doc>
+<assembly>
+<name>
+HeadCounter_Client_Win
+</name>
+</assembly>
+<members>
+<member name="T:HeadCounter_Client_Win.My.Resources.Resources">
+<summary>
+  A strongly-typed resource class, for looking up localized strings, etc.
+</summary>
+</member>
+<member name="P:HeadCounter_Client_Win.My.Resources.Resources.ResourceManager">
+<summary>
+  Returns the cached ResourceManager instance used by this class.
+</summary>
+</member>
+<member name="P:HeadCounter_Client_Win.My.Resources.Resources.Culture">
+<summary>
+  Overrides the current thread's CurrentUICulture property for all
+  resource lookups using this strongly typed resource class.
+</summary>
+</member>
+<member name="P:HeadCounter_Client_Win.My.Resources.Resources.pic_bong">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:HeadCounter_Client_Win.My.Resources.Resources.pic_joint">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="M:HeadCounter_Client_Win.Hotkey.RegisterHotKey(System.IntPtr,System.Int32,System.Int32,System.Int32)">
+ <summary>
+ Declaration of winAPI function wrappers. The winAPI functions are used to register / unregister a hotkey
+ </summary>
+</member>
+</members>
+</doc>

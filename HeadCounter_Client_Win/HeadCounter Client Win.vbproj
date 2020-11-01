@@ -38,8 +38,7 @@
     <DefineDebug>true</DefineDebug>
     <DefineTrace>true</DefineTrace>
     <OutputPath>bin\Debug\</OutputPath>
-    <DocumentationFile>
-    </DocumentationFile>
+    <DocumentationFile>HeadCounter_Client_Win.xml</DocumentationFile>
     <NoWarn>41999,42016,42017,42018,42019,42032,42036</NoWarn>
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
@@ -49,8 +48,7 @@
     <DefineTrace>true</DefineTrace>
     <Optimize>true</Optimize>
     <OutputPath>bin\Release\</OutputPath>
-    <DocumentationFile>
-    </DocumentationFile>
+    <DocumentationFile>HeadCounter_Client_Win.xml</DocumentationFile>
     <NoWarn>41999,42016,42017,42018,42019,42032,42036</NoWarn>
   </PropertyGroup>
   <PropertyGroup>
@@ -85,6 +83,17 @@
   </PropertyGroup>
   <PropertyGroup>
     <GenerateManifests>true</GenerateManifests>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)' == 'Publish|AnyCPU'">
+    <DefineTrace>true</DefineTrace>
+    <OutputPath>.binaries4download\</OutputPath>
+    <DocumentationFile>HeadCounter_Client_Win.xml</DocumentationFile>
+    <Optimize>true</Optimize>
+    <NoWarn>41999,42016,42017,42018,42019,42032,42036</NoWarn>
+    <DebugType>pdbonly</DebugType>
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <CodeAnalysisRuleSet>MinimumRecommendedRules.ruleset</CodeAnalysisRuleSet>
+    <Prefer32Bit>true</Prefer32Bit>
   </PropertyGroup>
   <ItemGroup>
     <Reference Include="System" />
@@ -193,6 +202,11 @@
   </ItemGroup>
   <ItemGroup>
     <Content Include="ico_maryjane.ico" />
+    <None Include="Resources\pic_joint2.png" />
+    <None Include="Resources\pic_bong3.png" />
+    <None Include="Resources\pic_bong2.png" />
+    <None Include="Resources\pic_joint1.png" />
+    <None Include="Resources\pic_bong1.png" />
     <None Include="Resources\pic_joint.png" />
     <None Include="Resources\pic_bong.png">
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>

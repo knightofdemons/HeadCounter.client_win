@@ -69,7 +69,7 @@ Partial Class win_main
         '
         Me.bt_smoke.Font = New System.Drawing.Font("Candara", 24.0!)
         Me.bt_smoke.ForeColor = System.Drawing.Color.FromArgb(CType(CType(255, Byte), Integer), CType(CType(128, Byte), Integer), CType(CType(0, Byte), Integer))
-        Me.bt_smoke.Location = New System.Drawing.Point(8, 271)
+        Me.bt_smoke.Location = New System.Drawing.Point(8, 327)
         Me.bt_smoke.Margin = New System.Windows.Forms.Padding(4)
         Me.bt_smoke.Name = "bt_smoke"
         Me.bt_smoke.Size = New System.Drawing.Size(284, 73)
@@ -80,10 +80,11 @@ Partial Class win_main
         'rbt_joint
         '
         Me.rbt_joint.AutoSize = True
+        Me.rbt_joint.BackgroundImageLayout = System.Windows.Forms.ImageLayout.None
         Me.rbt_joint.Checked = True
         Me.rbt_joint.Font = New System.Drawing.Font("Candara", 12.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.rbt_joint.ForeColor = System.Drawing.SystemColors.ActiveCaption
-        Me.rbt_joint.Location = New System.Drawing.Point(194, 202)
+        Me.rbt_joint.Location = New System.Drawing.Point(194, 236)
         Me.rbt_joint.Margin = New System.Windows.Forms.Padding(4)
         Me.rbt_joint.Name = "rbt_joint"
         Me.rbt_joint.Size = New System.Drawing.Size(61, 23)
@@ -95,9 +96,10 @@ Partial Class win_main
         'rbt_bowl
         '
         Me.rbt_bowl.AutoSize = True
+        Me.rbt_bowl.BackgroundImageLayout = System.Windows.Forms.ImageLayout.None
         Me.rbt_bowl.Font = New System.Drawing.Font("Candara", 12.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.rbt_bowl.ForeColor = System.Drawing.SystemColors.ActiveCaption
-        Me.rbt_bowl.Location = New System.Drawing.Point(41, 202)
+        Me.rbt_bowl.Location = New System.Drawing.Point(48, 236)
         Me.rbt_bowl.Margin = New System.Windows.Forms.Padding(4)
         Me.rbt_bowl.Name = "rbt_bowl"
         Me.rbt_bowl.Size = New System.Drawing.Size(61, 23)
@@ -108,10 +110,10 @@ Partial Class win_main
         '
         'GroupBox1
         '
-        Me.GroupBox1.Controls.Add(Me.PictureBox2)
-        Me.GroupBox1.Controls.Add(Me.PictureBox1)
         Me.GroupBox1.Controls.Add(Me.rbt_joint)
         Me.GroupBox1.Controls.Add(Me.rbt_bowl)
+        Me.GroupBox1.Controls.Add(Me.PictureBox2)
+        Me.GroupBox1.Controls.Add(Me.PictureBox1)
         Me.GroupBox1.Controls.Add(Me.txt_unitdefault)
         Me.GroupBox1.Controls.Add(Me.lb_metric)
         Me.GroupBox1.Controls.Add(Me.bt_smoke)
@@ -119,17 +121,17 @@ Partial Class win_main
         Me.GroupBox1.Margin = New System.Windows.Forms.Padding(4)
         Me.GroupBox1.Name = "GroupBox1"
         Me.GroupBox1.Padding = New System.Windows.Forms.Padding(4)
-        Me.GroupBox1.Size = New System.Drawing.Size(300, 352)
+        Me.GroupBox1.Size = New System.Drawing.Size(300, 407)
         Me.GroupBox1.TabIndex = 3
         Me.GroupBox1.TabStop = False
         '
         'PictureBox2
         '
         Me.PictureBox2.Image = Global.HeadCounter_Client_Win.My.Resources.Resources.pic_joint
-        Me.PictureBox2.Location = New System.Drawing.Point(156, 16)
+        Me.PictureBox2.Location = New System.Drawing.Point(156, 18)
         Me.PictureBox2.Margin = New System.Windows.Forms.Padding(4)
         Me.PictureBox2.Name = "PictureBox2"
-        Me.PictureBox2.Size = New System.Drawing.Size(136, 178)
+        Me.PictureBox2.Size = New System.Drawing.Size(136, 214)
         Me.PictureBox2.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage
         Me.PictureBox2.TabIndex = 4
         Me.PictureBox2.TabStop = False
@@ -137,10 +139,10 @@ Partial Class win_main
         'PictureBox1
         '
         Me.PictureBox1.Image = Global.HeadCounter_Client_Win.My.Resources.Resources.pic_bong
-        Me.PictureBox1.Location = New System.Drawing.Point(8, 16)
+        Me.PictureBox1.Location = New System.Drawing.Point(8, 18)
         Me.PictureBox1.Margin = New System.Windows.Forms.Padding(4)
         Me.PictureBox1.Name = "PictureBox1"
-        Me.PictureBox1.Size = New System.Drawing.Size(140, 178)
+        Me.PictureBox1.Size = New System.Drawing.Size(140, 214)
         Me.PictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage
         Me.PictureBox1.TabIndex = 3
         Me.PictureBox1.TabStop = False
@@ -150,7 +152,7 @@ Partial Class win_main
         Me.txt_unitdefault.AutoCompleteMode = System.Windows.Forms.AutoCompleteMode.SuggestAppend
         Me.txt_unitdefault.AutoCompleteSource = System.Windows.Forms.AutoCompleteSource.HistoryList
         Me.txt_unitdefault.Font = New System.Drawing.Font("Candara Light", 15.75!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.txt_unitdefault.Location = New System.Drawing.Point(105, 235)
+        Me.txt_unitdefault.Location = New System.Drawing.Point(101, 276)
         Me.txt_unitdefault.Margin = New System.Windows.Forms.Padding(4)
         Me.txt_unitdefault.MaxLength = 6
         Me.txt_unitdefault.Name = "txt_unitdefault"
@@ -165,7 +167,7 @@ Partial Class win_main
         Me.lb_metric.AutoSize = True
         Me.lb_metric.Font = New System.Drawing.Font("Candara Light", 15.75!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.lb_metric.ForeColor = System.Drawing.SystemColors.ActiveCaption
-        Me.lb_metric.Location = New System.Drawing.Point(155, 240)
+        Me.lb_metric.Location = New System.Drawing.Point(151, 281)
         Me.lb_metric.Margin = New System.Windows.Forms.Padding(4, 0, 4, 0)
         Me.lb_metric.Name = "lb_metric"
         Me.lb_metric.Size = New System.Drawing.Size(72, 26)
@@ -357,11 +359,11 @@ Partial Class win_main
         'lb_last
         '
         Me.lb_last.AutoSize = True
-        Me.lb_last.Font = New System.Drawing.Font("Candara", 27.75!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.lb_last.Font = New System.Drawing.Font("Candara", 20.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.lb_last.ForeColor = System.Drawing.Color.FromArgb(CType(CType(192, Byte), Integer), CType(CType(255, Byte), Integer), CType(CType(192, Byte), Integer))
-        Me.lb_last.Location = New System.Drawing.Point(620, 389)
+        Me.lb_last.Location = New System.Drawing.Point(642, 451)
         Me.lb_last.Name = "lb_last"
-        Me.lb_last.Size = New System.Drawing.Size(172, 45)
+        Me.lb_last.Size = New System.Drawing.Size(128, 33)
         Me.lb_last.TabIndex = 12
         Me.lb_last.Text = "Loading..."
         '
