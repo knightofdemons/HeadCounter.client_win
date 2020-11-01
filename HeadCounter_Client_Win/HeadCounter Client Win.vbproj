@@ -202,15 +202,9 @@
   </ItemGroup>
   <ItemGroup>
     <Content Include="ico_maryjane.ico" />
-    <None Include="Resources\pic_joint2.png" />
-    <None Include="Resources\pic_bong3.png" />
-    <None Include="Resources\pic_bong2.png" />
-    <None Include="Resources\pic_joint1.png" />
-    <None Include="Resources\pic_bong1.png" />
+    <Content Include="Readme.txt" />
     <None Include="Resources\pic_joint.png" />
-    <None Include="Resources\pic_bong.png">
-      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
-    </None>
+    <None Include="Resources\pic_bong.png" />
   </ItemGroup>
   <ItemGroup>
     <BootstrapperPackage Include=".NETFramework,Version=v4.7.2">

@@ -289,9 +289,9 @@ Partial Class win_main
         '
         Me.btn_about.Font = New System.Drawing.Font("Candara", 12.0!)
         Me.btn_about.ForeColor = System.Drawing.SystemColors.ActiveCaptionText
-        Me.btn_about.Location = New System.Drawing.Point(316, 649)
+        Me.btn_about.Location = New System.Drawing.Point(231, 649)
         Me.btn_about.Name = "btn_about"
-        Me.btn_about.Size = New System.Drawing.Size(149, 53)
+        Me.btn_about.Size = New System.Drawing.Size(160, 53)
         Me.btn_about.TabIndex = 9
         Me.btn_about.Text = "About and Privacy"
         Me.btn_about.UseVisualStyleBackColor = True
@@ -301,7 +301,7 @@ Partial Class win_main
         Me.btn_options.ForeColor = System.Drawing.SystemColors.ActiveCaptionText
         Me.btn_options.Location = New System.Drawing.Point(6, 648)
         Me.btn_options.Name = "btn_options"
-        Me.btn_options.Size = New System.Drawing.Size(304, 54)
+        Me.btn_options.Size = New System.Drawing.Size(219, 54)
         Me.btn_options.TabIndex = 10
         Me.btn_options.Text = "Options"
         Me.btn_options.UseVisualStyleBackColor = True
@@ -377,9 +377,9 @@ Partial Class win_main
         Me.btn_exit.DialogResult = System.Windows.Forms.DialogResult.Cancel
         Me.btn_exit.Font = New System.Drawing.Font("Candara", 14.0!)
         Me.btn_exit.ForeColor = System.Drawing.SystemColors.ActiveCaptionText
-        Me.btn_exit.Location = New System.Drawing.Point(471, 674)
+        Me.btn_exit.Location = New System.Drawing.Point(486, 649)
         Me.btn_exit.Name = "btn_exit"
-        Me.btn_exit.Size = New System.Drawing.Size(139, 28)
+        Me.btn_exit.Size = New System.Drawing.Size(124, 54)
         Me.btn_exit.TabIndex = 13
         Me.btn_exit.Text = "Exit"
         Me.btn_exit.UseVisualStyleBackColor = True
@@ -431,9 +431,9 @@ Partial Class win_main
         'btn_totray
         '
         Me.btn_totray.ForeColor = System.Drawing.SystemColors.ActiveCaptionText
-        Me.btn_totray.Location = New System.Drawing.Point(471, 649)
+        Me.btn_totray.Location = New System.Drawing.Point(397, 649)
         Me.btn_totray.Name = "btn_totray"
-        Me.btn_totray.Size = New System.Drawing.Size(138, 25)
+        Me.btn_totray.Size = New System.Drawing.Size(83, 53)
         Me.btn_totray.TabIndex = 14
         Me.btn_totray.Text = "Minimize to tray"
         Me.btn_totray.UseVisualStyleBackColor = True
