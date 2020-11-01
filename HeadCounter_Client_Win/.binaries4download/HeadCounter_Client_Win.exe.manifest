@@ -43,14 +43,14 @@
     </dependentAssembly>
   </dependency>
   <dependency>
-    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="HeadCounter_Client_Win.exe" size="2284000">
+    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="HeadCounter_Client_Win.exe" size="2283488">
       <assemblyIdentity name="HeadCounter_Client_Win" version="1.0.0.0" language="neutral" processorArchitecture="msil" />
       <hash>
         <dsig:Transforms>
           <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
         </dsig:Transforms>
         <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
-        <dsig:DigestValue>oBhYlfVO0zQDMZvGTErO+kmtbmwQSY0D10teLp3U/1E=</dsig:DigestValue>
+        <dsig:DigestValue>002M3s1uIvmXoIxo9hKeyvNnYwBtFuSIpJE6jowFlkM=</dsig:DigestValue>
       </hash>
     </dependentAssembly>
   </dependency>
