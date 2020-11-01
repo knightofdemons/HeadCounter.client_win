@@ -1,4 +1,4 @@
-# HeadCounter_Client_win
+# HeadCounter.client_win
 A small program to keep track of your medicinal or recreational cannabis/weed/marijuanna usage with focus on data control for user, privacy and security.
 
 
