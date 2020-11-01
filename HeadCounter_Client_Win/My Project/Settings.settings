@@ -1,0 +1,45 @@
+﻿<?xml version='1.0' encoding='utf-8'?>
+<SettingsFile xmlns="http://schemas.microsoft.com/VisualStudio/2004/01/settings" CurrentProfile="(Default)" GeneratedClassNamespace="My" GeneratedClassName="MySettings" UseMySettingsClassName="true">
+  <Profiles />
+  <Settings>
+    <Setting Name="type" Type="System.String" Scope="User">
+      <Value Profile="(Default)">Bowl</Value>
+    </Setting>
+    <Setting Name="unit_default" Type="System.Decimal" Scope="User">
+      <Value Profile="(Default)">0.4123</Value>
+    </Setting>
+    <Setting Name="country_chk" Type="System.Boolean" Scope="User">
+      <Value Profile="(Default)">False</Value>
+    </Setting>
+    <Setting Name="country_txt" Type="System.String" Scope="User">
+      <Value Profile="(Default)" />
+    </Setting>
+    <Setting Name="state_chk" Type="System.Boolean" Scope="User">
+      <Value Profile="(Default)">False</Value>
+    </Setting>
+    <Setting Name="state_txt" Type="System.Int32" Scope="User">
+      <Value Profile="(Default)">54</Value>
+    </Setting>
+    <Setting Name="postal_chk" Type="System.Boolean" Scope="User">
+      <Value Profile="(Default)">False</Value>
+    </Setting>
+    <Setting Name="postal_txt" Type="System.Int32" Scope="User">
+      <Value Profile="(Default)">23344</Value>
+    </Setting>
+    <Setting Name="location_chk" Type="System.Boolean" Scope="User">
+      <Value Profile="(Default)">False</Value>
+    </Setting>
+    <Setting Name="metric" Type="System.Boolean" Scope="User">
+      <Value Profile="(Default)">True</Value>
+    </Setting>
+    <Setting Name="data" Type="System.Data.DataTable" Scope="User">
+      <Value Profile="(Default)" />
+    </Setting>
+    <Setting Name="location_txt" Type="System.String" Scope="User">
+      <Value Profile="(Default)" />
+    </Setting>
+    <Setting Name="smokekey" Type="System.String" Scope="User">
+      <Value Profile="(Default)">CTRL+F12</Value>
+    </Setting>
+  </Settings>
+</SettingsFile>
