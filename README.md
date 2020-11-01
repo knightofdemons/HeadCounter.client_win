@@ -1,5 +1,5 @@
 # HeadCounter.client_win
-A small program to keep track of your medicinal or recreational cannabis/weed/marijuanna usage with focus on data control for user, privacy and security.
+A small program to keep track of your medicinal or recreational cannabis/weed/marijuana usage with focus on data control for user, privacy and security.
 This is the Windows client of this project.
 
 
